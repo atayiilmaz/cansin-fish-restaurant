@@ -19,6 +19,14 @@
 - [Galeri](https://www.cansinfishrestaurant.com/galeri): Mekân, manzara ve yemek fotoğrafları
 - [İletişim](https://www.cansinfishrestaurant.com/iletisim): Adres, telefon, çalışma saatleri ve harita
 
+## English pages
+
+- [Home](https://www.cansinfishrestaurant.com/en)
+- [About](https://www.cansinfishrestaurant.com/en/about)
+- [Menu](https://www.cansinfishrestaurant.com/en/menu)
+- [Gallery](https://www.cansinfishrestaurant.com/en/gallery)
+- [Contact](https://www.cansinfishrestaurant.com/en/contact)
+
 ## Çalışma saatleri
 
 - Pazartesi-Cuma ve Pazar: 09:00-23:30
