@@ -1,0 +1,25 @@
+# Cansın Fish Restaurant
+
+> Cansın Fish Restaurant, İstanbul Eminönü'nde Galata Köprüsü altında hizmet veren bir balık ve deniz ürünleri restoranıdır.
+
+## Temel bilgiler
+
+- Resmi site: https://www.cansinfishrestaurant.com/
+- Adres: Rüstempaşa Mahallesi, Ragıp Gümüşpala Caddesi, Yeni Galata Köprüsü Altı EB 10, Eminönü, İstanbul
+- Telefon: +90 212 528 95 80
+- Mutfak: Balık ekmek, günlük balık, Türk mutfağı ve deniz ürünleri
+- Instagram: https://www.instagram.com/cansinrestaurant/
+- Google Maps: https://share.google/lUHmpmQRGYdhcd3Er
+
+## Sayfalar
+
+- [Ana sayfa](https://www.cansinfishrestaurant.com/): Restoranın genel tanıtımı
+- [Hakkımızda](https://www.cansinfishrestaurant.com/hakkimizda): Cansın'ın hikâyesi ve konumu
+- [Lezzetler](https://www.cansinfishrestaurant.com/lezzetler): Balık ve deniz ürünleri seçenekleri
+- [Galeri](https://www.cansinfishrestaurant.com/galeri): Mekân, manzara ve yemek fotoğrafları
+- [İletişim](https://www.cansinfishrestaurant.com/iletisim): Adres, telefon, çalışma saatleri ve harita
+
+## Çalışma saatleri
+
+- Pazartesi-Cuma ve Pazar: 09:00-23:30
+- Cumartesi: 09:00-01:00
