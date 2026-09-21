@@ -12,7 +12,7 @@ export const metadata: Metadata = {
 export default function ContactPage() {
   return (
     <main className="contact-page">
-      <section className="contact-hero"><p className="eyebrow" data-hero-reveal>Rotanızı denize çevirin</p><h1 data-hero-reveal>Biz buradayız.<br /><em>Siz ne zaman geliyorsunuz?</em></h1></section>
+      <section className="contact-hero"><p className="eyebrow" data-hero-reveal>Rotanızı denize çevirin</p><h1 data-hero-reveal>Biz buradayız.<br /><span className="accent">Siz ne zaman geliyorsunuz?</span></h1></section>
       <section className="contact-details" data-reveal>
         <div className="contact-card" data-reveal-item><span>Adres</span><p>Rüstempaşa Mahallesi<br />Ragıp Gümüşpala Caddesi<br />Yeni Galata Köprüsü Altı EB 10<br />Eminönü, İstanbul</p><a className="button button-primary" href="https://share.google/lUHmpmQRGYdhcd3Er" target="_blank" rel="noreferrer">Yol tarifi alın <ArrowIcon /></a></div>
         <div className="contact-card" data-reveal-item><span>Telefon</span><a className="contact-phone" href="tel:+902125289580">+90 212<br />528 95 80</a><a className="text-link light" href="https://www.instagram.com/cansinrestaurant/" target="_blank" rel="noreferrer">@cansinrestaurant <ArrowIcon /></a></div>

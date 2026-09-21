@@ -2,8 +2,11 @@
 
 import { useEffect } from "react";
 import gsap from "gsap";
+import { usePathname } from "next/navigation";
 
 export function MotionEffects() {
+  const pathname = usePathname();
+
   useEffect(() => {
     const mm = gsap.matchMedia();
     const observers: IntersectionObserver[] = [];
@@ -54,7 +57,7 @@ export function MotionEffects() {
       observers.forEach((observer) => observer.disconnect());
       mm.revert();
     };
-  }, []);
+  }, [pathname]);
 
   return null;
 }

@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import { Merriweather } from "next/font/google";
 import { MotionEffects } from "./components/motion-effects";
+import { RouteTransition } from "./components/route-transition";
 import { SiteFooter } from "./components/site-footer";
 import { SiteHeader } from "./components/site-header";
 import "./globals.css";
 
-const merriweather = Merriweather({ variable: "--font-merriweather", subsets: ["latin"], weight: ["300", "400", "700", "900"], style: ["normal", "italic"], display: "swap" });
+const merriweather = Merriweather({ variable: "--font-merriweather", subsets: ["latin"], weight: ["300", "400", "700", "900"], style: "normal", display: "swap" });
 const siteUrl = "https://www.cansinfishrestaurant.com";
 
 export const metadata: Metadata = {
@@ -44,8 +45,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body>
         <SiteHeader />
         <MotionEffects />
-        {children}
-        <SiteFooter />
+        <RouteTransition>{children}<SiteFooter /></RouteTransition>
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData).replace(/</g, "\\u003c") }} />
       </body>
     </html>

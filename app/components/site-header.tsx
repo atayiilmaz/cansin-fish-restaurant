@@ -5,6 +5,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
 import { ArrowIcon } from "./icons";
+import { siteImages } from "../lib/site-images";
 
 const MAP_URL = "https://share.google/lUHmpmQRGYdhcd3Er";
 const links = [
@@ -35,7 +36,7 @@ export function SiteHeader() {
     <>
       <header className={`site-header ${scrolled ? "is-scrolled" : ""}`}>
         <Link className="brand" href="/" aria-label="Cansın Restaurant ana sayfa">
-          <Image src="/images/cansin-logo.jpg" alt="Cansın Restaurant logosu" width={100} height={100} priority />
+          <Image src={siteImages.logo} alt="Cansın Restaurant logosu" width={100} height={100} priority />
           <span><small>Galata Köprüsü</small><strong>Cansın Restaurant</strong></span>
         </Link>
         <nav className="desktop-nav" aria-label="Ana menü">
